@@ -1,0 +1,231 @@
+/*!
+ * Bootstrap v5.0.2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
+
+.App {
+  font-family: "HK Grotesk", sans-serif;
+  h1 {
+    font-size: 104px;
+  }
+  h2 {
+    font-size: 64px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  p.subtitle {
+    font-size: 24px;
+  }
+  p.large {
+    font-size: 20px;
+    color: $red;
+  }
+  p.regular {
+    font-size: 16px;
+  }
+  p.small {
+    font-size: 14px;
+  }
+}
+
+nav {
+  position: relative;
+  form.navbar {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    .items {
+      .btn {
+        color: white;
+      }
+      ul {
+        list-style: none;
+      }
+    }
+  }
+}
+
+.jumbotron {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: $white;
+  height: 100vh;
+  position: relative;
+  .container {
+    .content {
+      position: absolute;
+      bottom: 25%;
+    }
+  }
+}
+
+.aboutus {
+  p {
+    span {
+      color: $red;
+      font-weight: bold;
+    }
+  }
+}
+
+button {
+  &.arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+}
+
+.card {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 350px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: opacity(70%);
+  .card-featured {
+    height: 100%;
+    .meta-wrapper {
+      position: absolute;
+      left: 10px;
+      bottom: 0;
+      p {
+        color: white;
+      }
+    }
+  }
+}
+
+.product {
+  hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+section {
+  position: relative;
+  .title {
+    position: relative;
+    animation: slide-left 7s;
+    animation-iteration-count: infinite;
+    margin: 0;
+  }
+  @keyframes slide-left {
+    0% {
+      left: -1500px;
+    }
+    50% {
+      left: 0px;
+    }
+    100% {
+      left: 1500px;
+    }
+  }
+  &.makeus {
+    .content {
+      .img-wrapper {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 300px;
+        color: white;
+      }
+    }
+    .navigation {
+      position: absolute;
+      bottom: 25%;
+    }
+  }
+  &.works {
+    .content {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      .card-img {
+        position: relative;
+        color: white;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 270px;
+        height: 270px;
+        p {
+          position: absolute;
+          left: 10px;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.clients {
+  .body-clients {
+    .items {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto;
+      grid-gap: 10px;
+    }
+  }
+}
+
+footer {
+  background-color: #101010;
+  color: white;
+}

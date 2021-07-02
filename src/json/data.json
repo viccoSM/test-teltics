@@ -1,0 +1,197 @@
+{
+  "hero": {
+    "imgUrl": "/images/bg_hero.png"
+  },
+  "product": [
+    {
+      "id": 1,
+      "name": "Bali United FC",
+      "imgUrl": "/images/product_1.png",
+      "bgColor": "#E64D57"
+    },
+    {
+      "id": 2,
+      "name": "Bali United Basketball",
+      "imgUrl": "/images/product_2.png",
+      "bgColor": "#E54C56"
+    },
+    {
+      "id": 3,
+      "name": "Island of Gods",
+      "imgUrl": "/images/product_3.png",
+      "bgColor": ""
+    },
+    {
+      "id": 4,
+      "name": "KVIBES",
+      "imgUrl": "/images/product_4.png",
+      "bgColor": "#454545"
+    },
+    {
+      "id": 5,
+      "name": "Rahasia Gadis",
+      "imgUrl": "/images/product_5.png",
+      "bgColor": "#F1C2B7"
+    },
+    {
+      "id": 6,
+      "name": "Laper story group",
+      "imgUrl": "/images/product_6.png",
+      "bgColor": "#FEA62D"
+    },
+    {
+      "id": 7,
+      "name": "Parenting Group",
+      "imgUrl": "/images/product_7.png",
+      "bgColor": "#7BCBED"
+    },
+    {
+      "id": 8,
+      "name": "Millenials Group",
+      "imgUrl": "/images/product_8.png",
+      "bgColor": "#9C7579"
+    },
+    {
+      "id": 9,
+      "name": "Komik Dimsum",
+      "imgUrl": "/images/product_9.png",
+      "bgColor": "#3A3E68"
+    },
+    {
+      "id": 10,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/product_10.png",
+      "bgColor": "#E54C56"
+    }
+  ],
+  "client": [
+    {
+      "id": 1,
+      "name": "Indomie",
+      "imgUrl": "/images/client_1.png"
+    },
+    {
+      "id": 2,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_2.png"
+    },
+    {
+      "id": 3,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_3.png"
+    },
+    {
+      "id": 4,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_4.png"
+    },
+    {
+      "id": 5,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_5.png"
+    },
+    {
+      "id": 6,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_6.png"
+    },
+    {
+      "id": 7,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_7.png"
+    },
+    {
+      "id": 8,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_8.png"
+    },
+    {
+      "id": 9,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_9.png"
+    },
+    {
+      "id": 10,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_10.png"
+    },
+    {
+      "id": 11,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_11.png"
+    },
+    {
+      "id": 12,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_12.png"
+    },
+    {
+      "id": 13,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_13.png"
+    },
+    {
+      "id": 14,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_14.png"
+    },
+    {
+      "id": 15,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_8.png"
+    },
+    {
+      "id": 16,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_9.png"
+    },
+    {
+      "id": 17,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_10.png"
+    },
+    {
+      "id": 18,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_11.png"
+    },
+    {
+      "id": 19,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_12.png"
+    },
+    {
+      "id": 20,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_13.png"
+    },
+    {
+      "id": 21,
+      "name": "Bola Nusantara",
+      "imgUrl": "/images/client_14.png"
+    }
+  ],
+
+  "services": [
+    { "id": 1, "name": "Studio Rental", "imgUrl": "/images/service_1.jpg" },
+    { "id": 2, "name": "Digital Marketing", "imgUrl": "/images/service_2.jpg" },
+    { "id": 3, "name": "Production House", "imgUrl": "/images/service_3.jpg" },
+    { "id": 4, "name": "Animation House", "imgUrl": "/images/service_4.jpg" },
+    { "id": 5, "name": "Live Streaming", "imgUrl": "/images/service_5.jpg" },
+    { "id": 6, "name": "Talent Management", "imgUrl": "/images/service_6.jpg" },
+    { "id": 7, "name": "Event Organizer", "imgUrl": "/images/service_7.jpg" },
+    { "id": 8, "name": "PR & Brand Reputation", "imgUrl": "" },
+    { "id": 9, "name": "Sports Agency", "imgUrl": "" },
+    { "id": 10, "name": "Merchandising", "imgUrl": "" }
+  ],
+
+  "works": [
+    {
+      "id": 1,
+      "name": "Rexona Men soccer Stars",
+      "imgUrl": "/images/work_1.png"
+    },
+    { "id": 1, "name": "Bali United Festifal", "imgUrl": "/images/work_2.png" },
+    { "id": 1, "name": "New Indomie Variant", "imgUrl": "/images/work_3.png" }
+  ]
+}
